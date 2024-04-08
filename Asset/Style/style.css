@@ -39,8 +39,40 @@
 }
 
 
+/* sectionstart1 */
+
+ul{
+    list-style: none;
+    gap: 40px;
+}
+
+li:hover{
+   
+    transition:0.4s;
+    cursor: pointer;
+}
+
+/* sectionend1 */
+
+#main1{
+    border: 1px solid #170808;
+}
+
+#icon-1{
+    font-size: px;
+    color: #ffffff;
+    display: none;
+}
 
 
+@media(max-width:700px){
+    li{
+        display: none;
+    }
+    #icon-1{
+        display: block;
+    }
+}
 
 
 
